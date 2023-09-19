@@ -1,0 +1,26 @@
+{
+  "name": "@wireframe",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "./scripts/dev.sh",
+    "clean": "./scripts/clean.sh",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "Matt Koskela",
+  "license": "Copyright (c) 2023 Matt Koskela",
+  "bugs": {
+    "url": "https://github.com/wireframe-io/clients/issues"
+  },
+  "homepage": "https://github.com/wireframe-io/clients#readme",
+  "engines": {
+    "npm": ">=9.5.1 <10.0.0",
+    "node": ">=18.16.1 <19.0.0"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
